@@ -153,10 +153,10 @@ _This plugin:_
   https://raw.githubusercontent.com/cesheridan/streamline.vim/master/README.md
 
 # DISTRIBUTION
-* http://www.vim.org/scripts/script.php?script_id=4767
+* https://vim.sourceforge.io/scripts/script.php?script_id=5662
 
 # DOCUMENTATION
-Documentation is at the below URL, and is not packaged with plugin code.
+* https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md
 
 # DEPLOYMENT
 _txtmux.vim_ has the dependencies listed in REQUISITE PLUGINS. 
