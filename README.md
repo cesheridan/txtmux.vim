@@ -86,7 +86,7 @@ Filepath muxting, as well as its sourcing and execution.
 [halt_du_from_root]: ./doc/gif/halt_du_from_root.gif?raw=true  "halt_du_from_root"
 _sequence: cd to root, run `du`, decide it's too much screen data, halt output via CNTL-C_
 
-'clean-up' termwin command lines before texting commands to them.
+'clean-up' termwin command lines before muxting commands.
 
 | FORM | :Ex Command |  nmap  | Description |
 | :--- |  :--- | --- | --- | --- |
