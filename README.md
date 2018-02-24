@@ -142,7 +142,7 @@ _This plugin:_
 
 
 # REQUISITE PLUGINS
-*  _**textwins.vim** A text space of terminal & editing windows_
+*  _**textwins.vim** Windows that text_
   https://raw.githubusercontent.com/cesheridan/textwins.vim/master/README.md
 
 *  _**tabwins.vim** 1 command for custom window structures that persist_
