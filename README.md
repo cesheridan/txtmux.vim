@@ -42,7 +42,7 @@ Muxting commands start at the lowest applicable window number and move increment
 
 Muxting occurs whether a termwin is in NORMAL or TERMINAL-Job mode.
 
-On a per-command basis, **muxting defaults can be overridden** via 'args_hash' in calls to function **Muxter(args_hash)**, invoked from all muxting commands.  
+On a per-command basis, **muxting defaults can be overridden** via 'rcvd_hash' in calls to function **Muxter(count_prefix, rcvd_hash)**, invoked from all muxting commands.  
 
 Termwins that invoke muxting commands are **configured to NOT run the command on themselves.**  This can be overridden via Muxter() arg 'muxt_to_selfwin_is_wanted' 
 
@@ -156,6 +156,7 @@ _This plugin:_
 * https://vim.sourceforge.io/scripts/script.php?script_id=5662
 
 # DOCUMENTATION
+At the below URL, and not packaged with plugin code.
 * https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md
 
 # DEPLOYMENT
