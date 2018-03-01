@@ -2,7 +2,7 @@ _( tabwins x textwins ) multiplexer_ / Charles Sheridan
 
 # _txtmux.vim_
 
-[tabs]: ./doc/gif/txtmux_tabs.gif?raw=true  "tabs"
+[tabs]: ./doc_graphics/gif/txtmux_tabs.gif?raw=true  "tabs"
 ![alt text][tabs]
 
 _**txtmux.vim is son of tabwins.vim & textwins.vim**, a TxT Multiplex -- Vim TNT!_, the fortuitous factorial of window and text multiplexing.
@@ -18,10 +18,10 @@ ___
 
 ## txtmuxD Demo Menu
 ![alt text][txtmux_txt]
-[txtmux_txt]: ./doc/images/txtmuxD_TxT.jpg?raw=true  "txtmux_txt"
+[txtmux_txt]: ./doc_graphics/images/txtmuxD_TxT.jpg?raw=true  "txtmux_txt"
 
 ![alt text][txtmux_menu]
-[txtmux_menu]: ./doc/images/txtmuxD_muxt.jpg?raw=true  "txtmux_menu"
+[txtmux_menu]: ./doc_graphics/images/txtmuxD_muxt.jpg?raw=true  "txtmux_menu"
 
 The demo contains only a few of the commands in this plugin.  The _**developer is encouraged to customize**_ this menu for local use, by updating **menu_build()** and adding custom custom tabs that call :Tabwins, :TabwinsVertical, & :TabwinsHorizontal.  The demo commands call textwins.vim command :TermwinCreateSelfwin to build termwins. 
 
@@ -33,7 +33,7 @@ See the _textwins.vim_ 'VERTICAL & HORIZONTAL' section re the naming syntax used
 
 # COMMANDS
 ![alt text][ls_after_garbaj]
-[ls_after_garbaj]: ./doc/gif/ls_after_garbaj.gif?raw=true  "ls_after_garbaj"
+[ls_after_garbaj]: ./doc_graphics/gif/ls_after_garbaj.gif?raw=true  "ls_after_garbaj"
 _sequence: cd to /usr/local/bin, garbled cmd line, clean it, run `ls` -- all via :MuxtExArgs cmds_
 
 Command **scope** is the current tab, except for some of the exit commands, which encompass all tabs.  
@@ -83,7 +83,7 @@ Filepath muxting, as well as its sourcing and execution.
 
 ## Termwins Control 
 ![alt text][halt_du_from_root]
-[halt_du_from_root]: ./doc/gif/halt_du_from_root.gif?raw=true  "halt_du_from_root"
+[halt_du_from_root]: ./doc_graphics/gif/halt_du_from_root.gif?raw=true  "halt_du_from_root"
 _sequence: cd to root, run `du`, decide it's too much screen data, halt output via CNTL-C_
 
 'clean-up' termwin command lines before muxting commands.
@@ -98,7 +98,7 @@ _sequence: cd to root, run `du`, decide it's too much screen data, halt output v
 
 ## Wintype Conversion
 
-[converts]: ./doc/gif/converts.gif?raw=true  "converts"
+[converts]: ./doc_graphics/gif/converts.gif?raw=true  "converts"
 ![alt text][converts]
 
 **Use case**: a developer completes a period of interaction with termwins(editwins) and converts them to editwins(termwins). 
