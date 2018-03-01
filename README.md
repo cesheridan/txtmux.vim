@@ -154,15 +154,15 @@ _This plugin:_
 
 # DISTRIBUTION
 * https://vim.sourceforge.io/scripts/script.php?script_id=5662
+* Includes release history 
 
 # DOCUMENTATION
-At the below URL, and not packaged with plugin code.
 * https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md
 
 # DEPLOYMENT
 _txtmux.vim_ has the dependencies listed in REQUISITE PLUGINS. 
 
-It should load for any established Vim package manager, provided the package manager does not require special hooks in plugin code.  
+The .tgz decompresses to ./plugin & ./doc dirs compatatible with established Vim package managers. 
 
 # LICENSE 
 License: GPL (Gnu Public License) version 3
