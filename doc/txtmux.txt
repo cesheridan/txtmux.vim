@@ -1,0 +1,5 @@
+*txtmux.txt* ( tabwins x textwins ) multiplexer
+
+Documentation: *https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md*
+       Author: Charles Sheridan
+      Contact: opensource at att.net
