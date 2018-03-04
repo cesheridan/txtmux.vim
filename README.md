@@ -132,38 +132,38 @@ Note that if a session creates a large number of Vim terminals, approximately 60
 || Quit**All**AndWithForceIfTermwin    | q**aa** |    **:quit** ALL non-termwin windows (includes quickfix & help windows) & quit! ALL termwins, across ALL tabs.  Equivalent to a Vim :qa which also quits all termwins with force. |
 
 
-# MNEMONICS
+#### MNEMONICS
 * _txtmux.vim_ follows the mnemonics conventions of _textwins.vim_, and adds 'm' for 'Muxt'
 
-# _textwins.vim_ & Vim
+#### _textwins.vim_ & Vim
 _This plugin:_
 * Requires Vim8, the first Vim release with terminals
 * Neither writes to Vim global vars nor changes Vim configurations
 
 
-# REQUISITE PLUGINS
+#### REQUISITE PLUGINS
 *  _**textwins.vim** Windows that text_
   https://raw.githubusercontent.com/cesheridan/textwins.vim/master/README.md
 
 *  _**tabwins.vim** 1 command for custom window structures that persist_
   https://raw.githubusercontent.com/cesheridan/tabwins.vim/master/README.md
 
-# RECOMMENDED PLUGIN
+#### RECOMMENDED PLUGIN
 *  _**streamline.vim** Essential wares, to get there_
   https://raw.githubusercontent.com/cesheridan/streamline.vim/master/README.md
 
-# DISTRIBUTION
+#### DISTRIBUTION
 * https://vim.sourceforge.io/scripts/script.php?script_id=5662
 * Includes release history 
 
-# DOCUMENTATION
+#### DOCUMENTATION
 * https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md
 
-# DEPLOYMENT
+#### DEPLOYMENT
 _txtmux.vim_ has the dependencies listed in REQUISITE PLUGINS. 
 
 The .tgz decompresses to ./plugin & ./doc dirs compatible with established Vim package managers. 
 
-# LICENSE 
+#### LICENSE 
 License: GPL (Gnu Public License) version 3
 Copyright (c) 2018 Charles E. Sheridan
