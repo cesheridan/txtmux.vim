@@ -105,12 +105,14 @@ _sequence: cd to root, run `du`, decide it's too much screen data, halt output v
 
 | FORM | :Ex Command |  nmap | Description | 
 | :--- |  :--- | --- | --- | --- |
-| **:ConvertTab{}{....}wins2{....}wins ** |:ConvertTab**Term**wins2**Edit**wins   |**t2e**  |   Convert this tab's **termwins to editwins**|
-| |:ConvertTab**OtherTerm**wins2**Edit**wins   |**o2e**  |   Convert the other **termwins in this tab to editwins** i.e. excludes the window that invokes the command|
+| **:ConvertTab{}{....}wins2{....}wins ** |:ConvertTab**Term**wins2**Edit**wins   |**T2e**  |   Convert this tab's **termwins to editwins**|
+|  |   |**t2e**  |   name replaced by `T2e` in release 1.1.0|
+| |:ConvertTab**OtherTerm**wins2**Edit**wins   |**t2e**  |   Convert the other **termwins in this tab to editwins** i.e. excludes the window that invokes the command|
+|  |   |**o2e**  |   name replaced by `t2e` in release 1.1.0|
 | |:ConvertTab**Edit**wins2**Term**wins   |**e2t**  |   Convert this tab's **editwins to termwins**|
 | |:ConvertTab**OtherEdit**wins2**Term**wins   |**o2t**  |   Convert the other **editwins in this tab to termwins** i.e. excludes the window that invokes the command|
 
-Implemented w/ ':set hidden | enew' -- i.e. replaced buffers remain in the buffer list.
+Replaced buffers remain in the buffer list.
 
 Windows that are _neither editwins nor termwins_, e.g. QuickFix & Help windows, remain as they are.
 

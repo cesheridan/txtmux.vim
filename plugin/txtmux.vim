@@ -1,7 +1,7 @@
 " ==============================================================================
 "  txtmux.vim
 " ==============================================================================
-" Version:       1.0.0
+" Version:       1.1.0
 " Author:        Charles E. Sheridan
 " Script:        https://vim.sourceforge.io/scripts/index.php
 " Documention:   https://raw.githubusercontent.com/cesheridan/txtmux.vim/master/README.md
@@ -603,27 +603,25 @@ endfunction
 " --- Convert this tab's termwins to editwins
 " ------------------------------------------------------------------------------
 command!              ConvertTabTermwins2Editwins :call Convert_termwins_to_editwins_this_tab()
-noremap <silent> t2e :ConvertTabTermwins2Editwins<CR>
-" MNEMONICS: t:Termwins, 2:to, e:Editwins
+noremap <silent> T2e :ConvertTabTermwins2Editwins<CR>
+" MNEMONICS: T:entire Tab, 2:to, e:Editwins
+" MNEMONICS txtmux v1.0.0: t:Termwins, 2:to, e:Editwins
 
 " --- Exclude selfWin
 command!              ConvertTabOtherTermwins2Editwins :call Convert_termwins_to_editwins_this_tab_exclude_selfwin()
-noremap <silent> o2e :ConvertTabOtherTermwins2Editwins<CR>
-" MNEMONICS: o:Other termwins this tab, 2:to, e:Editwins
+noremap <silent> t2e :ConvertTabOtherTermwins2Editwins<CR>
+" MNEMONICS: t:other termwins this Tab, 2:to, e:Editwins
+" MNEMONICS txtmux v1.0.0: o:Other termwins this tab, 2:to, e:Editwins
 
 " ------------------------------------------------------------------------------
 " --- Convert this tab's editwins to termwins
 " ------------------------------------------------------------------------------
 command!              ConvertTabEditwins2Termwins :call Convert_editwins_to_termwins_this_tab()
-noremap <silent> e2t :ConvertTabEditwins2Termwins<CR>
-" MNEMONICS: c:Convert, t:Tab, e:Editwins, t:Termwins
-
 " --- Exclude selfWin
+"
 command!              ConvertTabOtherEditwins2Termwins :call Convert_editwins_to_termwins_this_tab_exclude_selfwin()
-noremap <silent> o2t :ConvertTabOtherEditwins2Termwins<CR>
-" MNEMONICS: o:Other editwins this tab, 2:to, t:Editwins
-
 " ==============================================================================
+"
 " QUIT WINTYPES
 " ==============================================================================
 
