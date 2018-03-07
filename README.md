@@ -106,13 +106,13 @@ _sequence: cd to root, run `du`, decide it's too much screen data, halt output v
 | FORM | :Ex Command |  nmap | Description | 
 | :--- |  :--- | --- | --- | --- |
 | **:ConvertTab{}{....}wins2{....}wins ** |:ConvertTab**Term**wins2**Edit**wins   |**T2e**  |   Convert this tab's **termwins to editwins**|
-|  |   |<strike>t2e</strike>  |   t2e replaced by `T2e` in release 1.1.0|
+|  |   |<strike>t2e</strike>  |   t2e renamed to `T2e` in release 1.1.0|
 | |:ConvertTab**OtherTerm**wins2**Edit**wins   |**t2e**  |   Convert the other **termwins in this tab to editwins** i.e. excludes the window that invokes the command|
-|  |   |<strike>o2e</strike>  |   o2e replaced by `t2e` in release 1.1.0|
+|  |   |<strike>o2e</strike>  |   o2e renamed to `t2e` in release 1.1.0|
 | |:ConvertTab**Edit**wins2**Term**wins   |**T2t**  |   Convert this tab's **editwins to termwins**|
-|  |   |<strike>t2e</strike>  |   t2e replaced by `T2t` in release 1.1.0|
+|  |   |<strike>t2e</strike>  |   t2e renamed to `T2t` in release 1.1.0|
 | |:ConvertTab**OtherEdit**wins2**Term**wins   |**t2t**  |   Convert the other **editwins in this tab to termwins** i.e. excludes the window that invokes the command|
-|  |   |<strike>o2t</strike>  |   o2t replaced by `t2t` in release 1.1.0|
+|  |   |<strike>o2t</strike>  |   o2t renamed to `t2t` in release 1.1.0|
 
 Replaced buffers remain in the buffer list.
 
