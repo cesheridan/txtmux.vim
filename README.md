@@ -168,6 +168,9 @@ _txtmux.vim_ has the dependencies listed in REQUISITE PLUGINS.
 
 The .tgz decompresses to ./plugin & ./doc dirs compatible with established Vim package managers. 
 
+#### LIKE ?
+* If you like _txtmux.vim_, please vote for it at vim.org.
+
 #### LICENSE 
 License: GPL (Gnu Public License) version 3
 Copyright (c) 2018 Charles E. Sheridan
