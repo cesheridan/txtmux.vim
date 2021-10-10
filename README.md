@@ -17,11 +17,11 @@ Each of these plugins is **requisite** for _txtmux.vim_
 ___
 
 ## txtmuxD Demo Menu
-![alt text][txtmux_txt]
-[txtmux_txt]: ./doc_graphics/images/txtmuxD_TxT.jpg?raw=true  "txtmux_txt"
+[txtmux]: ./doc_graphics/images/txtmuxD_TxT.jpg?raw=true  "txtmux_txt"
+![alt text][txtmux]
 
-![alt text][txtmux_menu]
-[txtmux_menu]: ./doc_graphics/images/txtmuxD_muxt.jpg?raw=true  "txtmux_menu"
+[txtmux]: ./doc_graphics/images/txtmuxD_muxt.jpg?raw=true  "txtmux_menu"
+![alt text][txtmux]
 
 The demo contains only a few of the commands in this plugin.  The _**developer is encouraged to customize**_ this menu for local use, by updating **menu_build()** and adding custom custom tabs that call :Tabwins, :TabwinsVertical, & :TabwinsHorizontal.  The demo commands call textwins.vim command :TermwinCreateSelfwin to build termwins. 
 
@@ -32,8 +32,9 @@ Global **g:txtmux_menu_number** default is **9996** and can be updated.
 See the _textwins.vim_ 'VERTICAL & HORIZONTAL' section re the naming syntax used in this menu. Also, the 'B's refer to a window being added to the bottom of the tab, and the 'L's refer to a window added at the left.
 
 # COMMANDS
-![alt text][ls_after_garbaj]
-[ls_after_garbaj]: ./doc_graphics/gif/ls_after_garbaj.gif?raw=true  "ls_after_garbaj"
+[ls]: ./doc_graphics/gif/ls_after_garbaj.gif?raw=true  "ls_after_garbaj"
+![alt text][ls]
+
 _sequence: cd to /usr/local/bin, garbled cmd line, clean it, run `ls` -- all via :MuxtExArgs cmds_
 
 Command **scope** is the current tab, except for some of the exit commands, which encompass all tabs.  
@@ -76,20 +77,21 @@ Filepath muxting, as well as its sourcing and execution.
 
 #### Muxt :Ex Line Args to Termwins
 | FORM | :Ex Command | Description |
-| :--- |  :--- | --- | --- | 
+| :--- |  :------ | --- | 
 | **:Muxt{}2Termwins** |:Muxt**ExArgs**2Termwins  |Muxt **:Ex Line Args** |
 |  |:Muxt**ExArgsRun**2Termwins  |Muxt & Run **:Ex Line Args** |
 
 
 ## Termwins Control 
-![alt text][halt_du_from_root]
-[halt_du_from_root]: ./doc_graphics/gif/halt_du_from_root.gif?raw=true  "halt_du_from_root"
+[halt]: ./doc_graphics/gif/halt_du_from_root.gif?raw=true  "halt_du_from_root"
+![alt text][halt]
+
 _sequence: cd to root, run `du`, decide it's too much screen data, halt output via CNTL-C_
 
 'clean-up' termwin command lines before muxting commands.
 
 | FORM | :Ex Command |  nmap  | Description |
-| :--- |  :--- | --- | --- | --- |
+| :--- |  :------ | --- | --- |
 | **:Muxt{..}2{....}wins** |:Muxt**CR**2**Term**wins  |m**CR**  |  Muxt **Carriage Returns** | 
 |  |:Muxt**SP**2**Term**wins  |m**SP**    |Muxt **SPace** Chars | 
 |  |:Muxt**CC**2**Term**wins  |m**CC**    |Muxt **Cntl-Cs** | 
@@ -104,7 +106,7 @@ _sequence: cd to root, run `du`, decide it's too much screen data, halt output v
 **Use case**: a developer completes a period of interaction with termwins(editwins) and converts them to editwins(termwins). 
 
 | FORM | :Ex Command |  nmap | Description | 
-| :--- |  :--- | --- | --- | --- |
+| :--- |  :--- | --- | --- |
 | **:ConvertTab{}{....}wins2{....}wins ** |:ConvertTab**Term**wins2**Edit**wins   |**T2e**  |   Convert this tab's **termwins to editwins**|
 |  |   |<strike>t2e</strike>  |   t2e renamed to `T2e` in release 1.1.0|
 | |:ConvertTab**OtherTerm**wins2**Edit**wins   |**t2e**  |   Convert the **other termwins in this tab to editwins** i.e. excludes the window that invokes the command|
@@ -127,7 +129,7 @@ Note that if a session creates a large number of Vim terminals, approximately 60
 :quit of a Vim8 :terminal prompts for confirmation -- _**termwin quits use :quit! to bypass confirmation**_.
 
 | FORM | :Ex Command |  nmap  |  Description | 
-| :--- |  :--- | --- | --- | --- |
+| :--- |  :--- | --- | --- |
 |  |:Quit**TabTerm**wins  |q**Tt**  |    **:quit!** this Tab's Termwins|
 |  |:Quit**AllTerm**wins  |q**at**  |    **:quit!** ALL Termwins|
 |  |:Quit**TabEdit**wins  |q**Te**  |    **:quit!** this Tab's Editwins|
